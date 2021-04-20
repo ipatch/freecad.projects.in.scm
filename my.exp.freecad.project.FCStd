@@ -1,0 +1,78 @@
+2691|2691|A|Document.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see https://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.20R24642 (Git)" FileVersion="1">
+    <Properties Count="15" TransientCount="3">
+        <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+        <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+        <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString" status="1">
+            <String value="NA"/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString" status="1">
+            <String value="github.com/ipatch"/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString" status="16777217">
+            <String value="2021-04-20T19:19:36Z"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString" status="1">
+            <String value="my.exp.freecad.project"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString" status="1">
+            <String value="github.com/ipatch"/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+            <String value="2021-04-20T19:21:59Z"/>
+        </Property>
+        <Property name="License" type="App::PropertyString" status="1">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString" status="1">
+            <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="ShowHidden" type="App::PropertyBool" status="1">
+            <Bool value="false"/>
+        </Property>
+        <Property name="TipName" type="App::PropertyString" status="83886080">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID" status="16777217">
+            <Uuid value="b555ddeb-d607-4dce-9978-3ac33d035f8a"/>
+        </Property>
+    </Properties>
+    <Objects Count="0" Dependencies="1">
+    </Objects>
+    <ObjectData Count="0">
+    </ObjectData>
+</Document>
+
+519|519|A|GuiDocument.xml
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1" HasExpansion="1">
+    <Expand />
+    <ViewProviderData Count="0">
+    </ViewProviderData>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -14.949693 -83.75518 52.550755&#10;  orientation 0.98660994 -0.10480718 -0.12496389  1.025811&#10;  aspectRatio 1&#10;  focalDistance 100&#10;  height 100&#10;&#10;}&#10;"/>
+</Document>
+
+2400|1800|B|thumbnails/Thumbnail.png
+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
