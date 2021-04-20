@@ -1,4 +1,4 @@
-9462|9462|A|Document.xml
+12852|12852|A|Document.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see https://www.freecadweb.org for more information...
@@ -30,7 +30,7 @@
             <String value="github.com/ipatch"/>
         </Property>
         <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
-            <String value="2021-04-20T19:54:03Z"/>
+            <String value="2021-04-20T19:54:29Z"/>
         </Property>
         <Property name="License" type="App::PropertyString" status="1">
             <String value="All rights reserved"/>
@@ -56,13 +56,15 @@
             <Uuid value="b555ddeb-d607-4dce-9978-3ac33d035f8a"/>
         </Property>
     </Properties>
-    <Objects Count="2" Dependencies="1">
+    <Objects Count="3" Dependencies="1">
         <ObjectDeps Name="Box" Count="0"/>
         <ObjectDeps Name="Box001" Count="0"/>
+        <ObjectDeps Name="Box002" Count="0"/>
         <Object type="Part::Box" name="Box" id="1155" />
         <Object type="Part::Box" name="Box001" id="1156" />
+        <Object type="Part::Box" name="Box002" id="1157" />
     </Objects>
-    <ObjectData Count="2">
+    <ObjectData Count="3">
         <Object name="Box" Extensions="True">
             <Extensions Count="1">
                 <Extension type="Part::AttachExtension" name="AttachExtension">
@@ -160,6 +162,61 @@
                 </Property>
                 <Property name="Shape" type="Part::PropertyPartShape">
                     <Part file="PartShape1.brp"/>
+                </Property>
+                <Property name="Support" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Width" type="App::PropertyLength">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Box002" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtension" name="AttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="15" TransientCount="0">
+                <Property name="AttacherType" type="App::PropertyString" status="8">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Height" type="App::PropertyLength">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Cube002"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Length" type="App::PropertyLength">
+                    <Float value="10.0000000000000000"/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part file="PartShape2.brp"/>
                 </Property>
                 <Property name="Support" type="App::PropertyLinkSubList">
                     <LinkSubList count="0">
@@ -748,14 +805,300 @@ So
 +2 0 *
 
 +1 1 
-9694|9694|A|GuiDocument.xml
+8938|8938|A|PartShape2.brp
+
+CASCADE Topology V1, (c) Matra-Datavision
+Locations 1
+1
+1.000000000000000 0.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 1.000000000000000 0.000000000000000 0.000000000000000 
+0.000000000000000 0.000000000000000 1.000000000000000 0.000000000000000 
+Curve2ds 24
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 -10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -1.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 
+Curves 12
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 10.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 10.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 10.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+Polygon3D 0
+PolygonOnTriangulations 0
+Surfaces 6
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 0.00000000000000000 10.00000000000000000 0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 
+1 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 -0.00000000000000000 1.00000000000000000 0.00000000000000000 
+1 10.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -0.00000000000000000 0.00000000000000000 0.00000000000000000 1.00000000000000000 0.00000000000000000 -1.00000000000000000 0.00000000000000000 
+Triangulations 0
+
+TShapes 34
+Ve
+0.000000100000000
+0.000000000000000 0.000000000000000 10.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+0.000000000000000 0.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  1 0 0.000000000000000 10.000000000000000
+2  1 1 0 0.000000000000000 10.000000000000000
+2  2 2 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-34 0 +33 0 *
+Ve
+0.000000100000000
+0.000000000000000 10.000000000000000 10.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  2 0 0.000000000000000 10.000000000000000
+2  3 1 0 0.000000000000000 10.000000000000000
+2  4 3 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-31 0 +34 0 *
+Ve
+0.000000100000000
+0.000000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  3 0 0.000000000000000 10.000000000000000
+2  5 1 0 0.000000000000000 10.000000000000000
+2  6 4 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-31 0 +29 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  4 0 0.000000000000000 10.000000000000000
+2  7 1 0 0.000000000000000 10.000000000000000
+2  8 5 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-29 0 +33 0 *
+Wi
+
+0101100
+-32 0 -30 0 +28 0 +27 0 *
+Fa
+0  0.000000100000000 1 0
+
+0111000
++26 0 *
+Ve
+0.000000100000000
+10.000000000000000 0.000000000000000 10.000000000000000
+0 0
+
+0101101
+*
+Ve
+0.000000100000000
+10.000000000000000 0.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  5 0 0.000000000000000 10.000000000000000
+2  9 6 0 0.000000000000000 10.000000000000000
+2  10 2 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-24 0 +23 0 *
+Ve
+0.000000100000000
+10.000000000000000 10.000000000000000 10.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  6 0 0.000000000000000 10.000000000000000
+2  11 6 0 0.000000000000000 10.000000000000000
+2  12 3 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-21 0 +24 0 *
+Ve
+0.000000100000000
+10.000000000000000 10.000000000000000 0.000000000000000
+0 0
+
+0101101
+*
+Ed
+ 0.000000100000000 1 1 0
+1  7 0 0.000000000000000 10.000000000000000
+2  13 6 0 0.000000000000000 10.000000000000000
+2  14 4 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-21 0 +19 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  8 0 0.000000000000000 10.000000000000000
+2  15 6 0 0.000000000000000 10.000000000000000
+2  16 5 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-19 0 +23 0 *
+Wi
+
+0101100
+-22 0 -20 0 +18 0 +17 0 *
+Fa
+0  0.000000100000000 6 0
+
+0111000
++16 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  9 0 0.000000000000000 10.000000000000000
+2  17 2 0 0.000000000000000 10.000000000000000
+2  18 5 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-23 0 +33 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  10 0 0.000000000000000 10.000000000000000
+2  19 2 0 0.000000000000000 10.000000000000000
+2  20 3 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-24 0 +34 0 *
+Wi
+
+0101100
+-14 0 -22 0 +13 0 +32 0 *
+Fa
+0  0.000000100000000 2 0
+
+0111000
++12 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  11 0 0.000000000000000 10.000000000000000
+2  21 4 0 0.000000000000000 10.000000000000000
+2  22 5 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-19 0 +29 0 *
+Ed
+ 0.000000100000000 1 1 0
+1  12 0 0.000000000000000 10.000000000000000
+2  23 4 0 0.000000000000000 10.000000000000000
+2  24 3 0 0.000000000000000 10.000000000000000
+0
+
+0101000
+-21 0 +31 0 *
+Wi
+
+0101100
+-10 0 -18 0 +9 0 +28 0 *
+Fa
+0  0.000000100000000 4 0
+
+0111000
++8 0 *
+Wi
+
+0101100
+-27 0 -10 0 +17 0 +14 0 *
+Fa
+0  0.000000100000000 5 0
+
+0111000
++6 0 *
+Wi
+
+0101100
+-30 0 -9 0 +20 0 +13 0 *
+Fa
+0  0.000000100000000 3 0
+
+0111000
++4 0 *
+Sh
+
+0101100
+-25 0 +15 0 -11 0 +7 0 -5 0 +3 0 *
+So
+
+1100000
++2 0 *
+
++1 1 
+14252|14252|A|GuiDocument.xml
 <?xml version='1.0' encoding='utf-8'?>
 <!--
  FreeCAD Document, see http://www.freecadweb.org for more information...
 -->
 <Document SchemaVersion="1" HasExpansion="1">
     <Expand />
-    <ViewProviderData Count="2">
+    <ViewProviderData Count="3">
         <ViewProvider name="Box" expanded="0" Extensions="True">
             <Extensions Count="1">
                 <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
@@ -910,12 +1253,89 @@ So
                 </Property>
             </Properties>
         </ViewProvider>
+        <ViewProvider name="Box002" expanded="0" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="PartGui::ViewProviderAttachExtension" name="ViewProviderAttachExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="23" TransientCount="0">
+                <Property name="AngularDeflection" type="App::PropertyAngle" status="1">
+                    <Float value="28.5000000000000000"/>
+                </Property>
+                <Property name="BoundingBox" type="App::PropertyBool" status="1">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="Deviation" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="0.5000000000000000"/>
+                </Property>
+                <Property name="DiffuseColor" type="App::PropertyColorList" status="1">
+                    <ColorList file="DiffuseColor2"/>
+                </Property>
+                <Property name="DisplayMode" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="DrawStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Lighting" type="App::PropertyEnumeration" status="1">
+                    <Integer value="1"/>
+                </Property>
+                <Property name="LineColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="LineColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="LineColorArray2"/>
+                </Property>
+                <Property name="LineMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="LineWidth" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="OnTopWhenSelected" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="PointColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="421075200"/>
+                </Property>
+                <Property name="PointColorArray" type="App::PropertyColorList" status="1">
+                    <ColorList file="PointColorArray2"/>
+                </Property>
+                <Property name="PointMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="421075200" specularColor="0" emissiveColor="0" shininess="1.0000000000000000" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="PointSize" type="App::PropertyFloatConstraint" status="1">
+                    <Float value="2.0000000000000000"/>
+                </Property>
+                <Property name="Selectable" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="SelectionStyle" type="App::PropertyEnumeration" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="ShapeColor" type="App::PropertyColor" status="1">
+                    <PropertyColor value="3435973632"/>
+                </Property>
+                <Property name="ShapeMaterial" type="App::PropertyMaterial" status="1">
+                    <PropertyMaterial ambientColor="858993408" diffuseColor="3435973632" specularColor="0" emissiveColor="0" shininess="0.2000000029802322" transparency="0.0000000000000000"/>
+                </Property>
+                <Property name="ShowInTree" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Transparency" type="App::PropertyPercent" status="1">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="1">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </ViewProvider>
     </ViewProviderData>
-    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position 9.0934067 21.129711 17.77467&#10;  orientation 0.76917797 -0.44004312 -0.46338642  1.3125104&#10;  nearDistance -10.722653&#10;  farDistance 28.081957&#10;  aspectRatio 1&#10;  focalDistance 8.6602545&#10;  height 85.789047&#10;&#10;}&#10;"/>
+    <Camera settings="OrthographicCamera {&#10;  viewportMapping ADJUST_CAMERA&#10;  position -20.006256 6.9961414 26.229055&#10;  orientation 0.85902292 -0.37500325 -0.34850013  0.91948545&#10;  nearDistance 4.9444318&#10;  farDistance 60.025917&#10;  aspectRatio 1&#10;  focalDistance 32.457664&#10;  height 64.915329&#10;&#10;}&#10;"/>
 </Document>
 
-3176|2382|B|thumbnails/Thumbnail.png
-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
+3928|2944|B|thumbnails/Thumbnail.png
+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
 12|8|B|DiffuseColor
 AQAAAADMzMw=
 12|8|B|LineColorArray
@@ -927,4 +1347,10 @@ AQAAAADMzMw=
 12|8|B|LineColorArray1
 AQAAAAAZGRk=
 12|8|B|PointColorArray1
+AQAAAAAZGRk=
+12|8|B|DiffuseColor2
+AQAAAADMzMw=
+12|8|B|LineColorArray2
+AQAAAAAZGRk=
+12|8|B|PointColorArray2
 AQAAAAAZGRk=
