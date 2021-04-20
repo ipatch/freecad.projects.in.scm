@@ -25,7 +25,7 @@ my first experiment with version controlling freecad project files
   git checkout [HASH_OF_COMMIT]
   ```
 
-...and the current freecad file is open in freecad, the file will not be updated!
+...and if the current freecad file is open in freecad, the **file will not be updated!**
 
 - close the current file, and reopen the file, and freecad should pickup the file as it existed at that particular commit.
 
