@@ -41,6 +41,16 @@ the freecad file will have to be open/closed each time when reverting the file a
 ## references
 
 - [version controlling freecad files, blog post][ul1]
+- [**forum.freecadweb.org** version control support (git) for freecad project files][ul2]
+- [**gitlab.com** freecad wrapper around `.FCStd` project files][ul3]
+- [**apple.stackexchange** useful question about using applescript as a wrapper for cli commands, ie launch window/dialog][ul4]
+- [**howtoforge.com** zenity gui wrapper for cli, cross-platform][ul5]
+- [**stackoverflow** using git to manage **zip** files][ul6]
 
 
 [ul1]: <https://blog.lambda.cx/posts/freecad-and-git/>
+[ul2]: <https://forum.freecadweb.org/viewtopic.php?f=10&t=38353>
+[ul3]: <https://gitlab.com/frc-team-4739/ffos/fc-git>
+[ul4]: <https://apple.stackexchange.com/questions/239764/how-can-i-run-a-shell-script-that-prompts-for-user-input-from-within-applescript>
+[ul5]: <https://www.howtoforge.com/how-to-display-gui-dialogs-in-bash-script-using-zenity/>
+[ul6]: <https://stackoverflow.com/questions/8001663/can-git-treat-zip-files-as-directories-and-files-inside-the-zip-as-blobs>
